@@ -8,8 +8,8 @@ import lib.CrazyThirdPartyLib;
 public class StuffDoer {
     private CrazyThirdPartyLib thirdPartyLib;
 
-    public StuffDoer() {
-        this.thirdPartyLib = new CrazyThirdPartyLib();
+    public StuffDoer(CrazyThirdPartyLib thirdPartyLib) {
+        this.thirdPartyLib = thirdPartyLib;
     }
 
     public Boolean doStuff(SomeDTO dto) {

@@ -1,5 +1,6 @@
 package main;
 
+import lib.CrazyThirdPartyLib;
 import util.SomeDTO;
 import util.StuffDoer;
 
@@ -8,7 +9,7 @@ import util.StuffDoer;
  */
 public class App {
     public static void main (String args[]) {
-        StuffDoer stuffDoer = new StuffDoer();
+        StuffDoer stuffDoer = new StuffDoer(new CrazyThirdPartyLib());
         stuffDoer.doStuff(new SomeDTO());
     }
 }
