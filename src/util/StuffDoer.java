@@ -1,14 +1,14 @@
 package util;
 
-import lib.CrazyThirdPartyLib;
+import lib.ICrazyLibWrapper;
 
 /**
  * Created by nathanlynch on 3/1/18.
  */
 public class StuffDoer {
-    private CrazyThirdPartyLib thirdPartyLib;
+    private CrazyLib thirdPartyLib;
 
-    public StuffDoer(CrazyThirdPartyLib thirdPartyLib) {
+    public StuffDoer(CrazyLib thirdPartyLib) {
         this.thirdPartyLib = thirdPartyLib;
     }
 
